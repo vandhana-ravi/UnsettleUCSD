@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsettle UCSD - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+
+    <nav class="main-nav">
+        <div class="nav-content">
+            <a href="index.html" class="nav-logo">Unsettle UCSD</a>
+            <ul>
+                <li><a href="index.html" class="nav-link home active">Home</a></li>
+                <li><a href="about.html" class="nav-link about">About</a></li>
+                <li><a href="poetry.html" class="nav-link method">Poetry</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <img src="images/campus_map.png" alt="Interactive Map" id="mainImage" usemap="#imagemap">
+
+            <map name="imagemap">
+                <area shape="rect" coords="499,821,647,943" href="#" alt="Area 1" data-target="popup1">
+                <area shape="rect" coords="875,1179,1021,1315" href="#" alt="Area 2" data-target="popup2">
+            </map>
+
+            <div id="popup1" class="popup-window">
+                <div class="popup-content">
+                    <span class="close-btn">&times;</span>
+            
+                    <div class="split-container">
+                        
+                        <div class="media-side">
+                            <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vQhBGT6xCxgEtGpaqfnzZ1E9fjhIN2IDcUH3cS_n8mHMwucmg79bnnAz9AWXylu_UsW80yys58x4pYH&font=Default&lang=en&initial_zoom=2&width=100%25&height=650" width="100%" height="650" frameborder="0"></iframe>
+                        </div>
+            
+                        <div class="text-side">
+                            <h3>A History of Sports Culture at UCSD</h3>
+                                <h4>By Carlos Gonzales</h4>
+                            <p><b>Research Question:</b><br>How have UCSD’s athletic facilities evolved from informal student recreation to institutionalized NCAA-level sports, and what does this shift reveal about changing campus culture?</p>
+                            <p><b>Sources:</b><br>
+                                Glasheen, Roberts. “UCSD School of Medicine.” October 1, 1970 (asc2_a1096_112_20), Robert Glasheen Photograph Collection. MSS 154. Special Collections & Archives, UC San Diego. <a href="https://library.ucsd.edu/dc/object/bb3618933h/zoom/0" target="_blank">https://library.ucsd.edu/dc/object/bb3618933h/zoom/0</a>
+                            <p>The UCSD Triton Times. “Intramurals: Coeds Ready to Play Ball.” Volume 16, Number 1. March 28, 1972. Page 6. <a href="https://library.ucsd.edu/dc/object/bb1536943z/_1.pdf" target="_blank">https://library.ucsd.edu/dc/object/bb1536943z/_1.pdf</a></p>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            
+            <div id="popup2" class="popup-window">
+                <div class="popup-content">
+                    <span class="close-btn">&times;</span>
+            
+                    <div class="split-container">
+                        
+                        <div class="media-side">
+                            <iframe src="docs/Fallen_Star.pdf#toolbar=0" width="100%" height="500px" style="border:none;"></iframe>
+                        </div>
+            
+                        <div class="text-side">
+                            <h3>Fallen Star</h3>
+                            <h4>By Jordan Jung</h4>
+                            <p><b>Research Question: </b><br>How does the creation of the “Fallen Star” reveal the art piece’s message of ‘home’ and ‘displacement’ among students at UCSD?</p>
+                            <p><b>Sources:</b><br>
+                            Burakovsky, Arik. “Quicktakes — Fallen Star.” The UCSD Guardian, 28 Nov. 2011, <a href="https://ucsdguardian.org/2011/11/28/quicktakes-fallen-star/" target="_blank">https://ucsdguardian.org/2011/11/28/quicktakes-fallen-star/</a></p>
+                            <p> Suh, Do Ho, and Joan Simon. “Interview with the Artist.” Stuart Collection: Fallen Star, University of California, San Diego, <a href="https://stuartcollection.ucsd.edu/artist/suh.html" target="_blank">https://stuartcollection.ucsd.edu/artist/suh.html</a></p>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
